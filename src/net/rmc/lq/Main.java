@@ -13,7 +13,7 @@ public class Main extends JavaPlugin implements Listener{
     @Override
     public void onEnable(){
         saveDefaultConfig();
-        Bukkit.getPluginManager().registerEvents((Listener)this, (Plugin)this);
+        Bukkit.getPluginManager().registerEvents(this, this);
         reloadConfig();
     }
 
