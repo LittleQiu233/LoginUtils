@@ -31,7 +31,6 @@ public class Main extends JavaPlugin implements Listener{
     public void onChat(AsyncPlayerChatEvent e) {
         if (!(e.getPlayer().hasPermission("login.bypass"))) {
             e.setCancelled(true);
-
             e.getPlayer().sendMessage(getConfig().getString("Message").replace("&","§"));
         }
     }
