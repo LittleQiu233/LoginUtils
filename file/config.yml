@@ -1,2 +1,26 @@
-# 玩家尝试在服务器发送消息的提示
-Message: "&eLoginUtils &f>> &cYou cannot say anything in Login Server."
+disbleJoinMessage: true
+disableLeaveMessage: true
+disablesendmessage: true
+backmessage: "&eLoginUtils &f>> &cYou cannot say anything in Login Server."
+HidePlayer: true
+noDrop: true
+noDropWorlds:
+ - world
+noHungry: true
+noHungryWorlds:
+ - world
+noDamage: true
+noDamageWorlds:
+ - world
+noWeather: true
+noWeatherWorlds:
+ - world
+noBreak: true
+noBreakWorlds:
+ - world
+noPlace: true
+noPlaceWorlds:
+ - world
+
+
+
